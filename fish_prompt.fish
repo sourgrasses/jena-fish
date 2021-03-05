@@ -11,7 +11,7 @@ function fish_prompt
 
     set -l decoration "$brred❥$brmagenta❥$brcyan❥ "
 
-    set cwd (prompt_pwd)
+    set cwd (set_color normal) (prompt_pwd)
 
     echo -n $cwd $decoration
 end
