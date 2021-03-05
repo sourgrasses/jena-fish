@@ -4,11 +4,11 @@ function fish_mode_prompt
             case default
                 echo -n -s (set_color green) ❤
             case insert
-                echo -n -s  (set_color cyan) ❤
+                echo -n -s (set_color cyan) ❤
             case visual
-                echo -n -s  (set_color magenta) ❤
+                echo -n -s (set_color magenta) ❤
             case replace-one
-                echo -n -s  (set_color brmagenta) ❤
+                echo -n -s (set_color brmagenta) ❤
         end
     end
 end
